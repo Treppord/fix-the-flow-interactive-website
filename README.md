@@ -1,5 +1,6 @@
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Funda Connecties Systeem
+
+Een connectie toevoegings en managing systeem. Om connecties te maken waar je huizen en lijsten mee kan delen.
 
 ## User Story
 
