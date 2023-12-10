@@ -60,7 +60,7 @@ function displayConnections() {
 
       const connectionDetails = `
               <p><strong>Name:</strong> ${connection.name}</p>
-              <p><strong>Connectio Type:</strong> ${connection.connection}</p>
+              <p><strong>Connection Type:</strong> ${connection.connection}</p>
               <p><strong>Birthday:</strong> ${connection.date}</p>
               <p><strong>Email:</strong> ${connection.email}</p>
           `;
