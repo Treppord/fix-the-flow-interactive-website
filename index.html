@@ -8,49 +8,47 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <title>Booking System</title>
+    <title>Funda Connection System</title>
   </head>
   <body>
-    <a href="manager.html" class="nav-button">Go to Manager</a>
-    <div class="booking-form">
-      <h2>Book Your Appointment</h2>
+    <header>
+      <a href="manager.html" class="nav-button">Go to Connections</a>
+    </header>
+    <div class="connection-form">
+      <h2>Add your friend</h2>
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" placeholder="Enter your name" />
       </div>
       <div class="form-group">
-        <label for="service">Select Service:</label>
-        <div class="service-buttons">
-          <button name="service-button" onclick="selectService('massage')">
-            Massage
+        <label for="connection">Type Connection:</label>
+        <div class="connection-buttons">
+          <button
+            name="connection-button"
+            onclick="selectConnection('friends')"
+          >
+            Friends
           </button>
-          <button name="service-button" onclick="selectService('pedicure')">
-            Pedicure
+          <button name="connection-button" onclick="selectConnection('family')">
+            Family
           </button>
-          <div id="service-options" class="form-group">
-            <!-- Service options will be dynamically generated here -->
-          </div>
         </div>
       </div>
       <div class="form-group">
-        <label for="date">Date:</label>
-        <input type="date" id="date" onchange="generateTimeSlots()" />
-      </div>
-      <div id="time-slots-container" class="form-group">
-        <!-- Time slots will be dynamically generated here -->
+        <label for="date">Birthday:</label>
+        <input type="date" id="date" />
       </div>
       <div class="form-group">
         <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Enter your email" />
       </div>
-      <button onclick="submitBooking()">Book Now</button>
+      <button onclick="submitConnection()">Add Now</button>
     </div>
 
-    <!-- Modal for successful booking -->
     <div id="success-modal" class="modal">
       <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <p>Booking Successful!</p>
+        <p>Connection Added Successfully!</p>
       </div>
     </div>
 

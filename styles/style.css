@@ -3,10 +3,10 @@
   --form-background: #fff;
   --form-border-radius: 8px;
   --form-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  --button-background: #c78c3f;
+  --button-background: #f7a100;
   --button-color: #fff;
   --button-border-radius: 4px;
-  --button-hover-background: #99641f;
+  --button-hover-background: #c78200;
 }
 
 @font-face {
@@ -24,12 +24,20 @@ body {
   height: 100vh;
 }
 
+header {
+  background-color: var(--button-background);
+  height: 4em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav-button {
   position: absolute;
   top: 10px;
-  left: 10px;
+  right: 10px;
   padding: 10px;
-  background-color: #c78c3f;
+  background-color: var(--button-background);
   color: #fff;
   text-decoration: none;
   border: none;
@@ -46,7 +54,7 @@ h1 {
   text-align: center;
 }
 
-.booking-form {
+.connection-form {
   background-color: var(--form-background);
   padding: 20px;
   border-radius: var(--form-border-radius);
