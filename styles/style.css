@@ -32,6 +32,14 @@ header {
   width: 100%;
 }
 
+.logo-funda {
+  width: auto;
+  scale: 120%;
+  margin: 1em;
+  height: 2em;
+  cursor: pointer;
+}
+
 .nav-button {
   position: absolute;
   top: 10px;

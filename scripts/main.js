@@ -1,5 +1,3 @@
-// scripts/main.js
-
 // Function to submit a contact
 function submitConnection() {
   const name = document.getElementById("name").value;
@@ -47,6 +45,7 @@ function selectConnection(connection) {
   selectedConnection = connection;
 }
 
+// Displays connections within div block
 function displayConnections() {
   const bookings = JSON.parse(sessionStorage.getItem("bookings")) || [];
   const agenda = document.getElementById("agenda");
