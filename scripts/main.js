@@ -4,8 +4,10 @@ function submitConnection() {
   const date = document.getElementById("date").value;
   const email = document.getElementById("email").value;
 
-  if (!name || !date || !email) {
-    alert("Please fill in all fields before contact.");
+  if (!name || !date || !email || !selectedConnection) {
+    alert(
+      "Please fill in all fields and select a connection type before contact."
+    );
     return;
   }
 
@@ -27,10 +29,18 @@ function submitConnection() {
   const modal = document.getElementById("success-modal");
   modal.style.display = "block";
 
-  // Reset the form
+  // Reset the form and selected connection
   document.getElementById("name").value = "";
   document.getElementById("date").value = "";
   document.getElementById("email").value = "";
+  selectedConnection = null;
+
+  // Update button styles
+  document.querySelectorAll("[name='connection-button']").forEach((button) => {
+    button.classList.remove("selected");
+  });
+
+  displayConnections();
 }
 
 function closeModal() {
@@ -43,6 +53,19 @@ let selectedConnection = null;
 
 function selectConnection(connection) {
   selectedConnection = connection;
+
+  // Reset button styles
+  document.querySelectorAll("[name='connection-button']").forEach((button) => {
+    button.classList.remove("selected");
+  });
+
+  // Apply style to the selected button
+  const selectedButton = document.querySelector(
+    `[onclick="selectConnection('${connection}')"]`
+  );
+  if (selectedButton) {
+    selectedButton.classList.add("selected");
+  }
 }
 
 // Displays connections within div block

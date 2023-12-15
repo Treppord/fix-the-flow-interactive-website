@@ -173,3 +173,8 @@ button:hover {
     margin-right: 0.5em;
   }
 }
+
+/* Add this style to highlight the selected button */
+button.selected {
+  background-color: var(--button-hover-background);
+}
