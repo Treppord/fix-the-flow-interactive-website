@@ -28,36 +28,34 @@ Deze user story stelt gebruikers in staat om hun huizen op Funda te organiseren,
 
 ## User Test
 
-Deze user test is ontworpen om de functionaliteit van het toevoegen, beheren en delen van huizen op Funda te valideren, gebaseerd op de gegeven user story.
+**Testplan voor Huizen Delen op Funda**
 
-**Testdoel:** 
-Het doel van deze test is om te controleren of gebruikers in staat zijn om huizen aan hun persoonlijke lijst toe te voegen, deze lijst te beheren en huizen succesvol te delen met vrienden en familie.
+1. **Takenlijst:**
+   - Voeg een huis toe aan je persoonlijke lijst op Funda.
+   - Beheer je opgeslagen huizen door er een te verwijderen.
+   - Deel een specifiek huis met een vriend via de gegenereerde link.
 
-**Testscenario: Huizen Toevoegen aan Persoonlijke Lijst**
-1. Ga naar de Funda-website en log in op je gebruikersaccount.
-2. Zoek naar een willekeurig huis op de website.
-3. Op de detailpagina van het huis, zoek en klik op de "Toevoegen aan Mijn Lijst" knop.
-4. Controleer of het huis met succes is toegevoegd aan je persoonlijke lijst.
+2. **Scenario's:**
+   - *Taak: Voeg een huis toe aan je persoonlijke lijst op Funda.*
+     - *Scenario:* Je bent ingelogd op Funda en je hebt een huis gevonden dat je interessant vindt. Voeg dit huis toe aan je persoonlijke lijst zodat je het later kunt bekijken.
 
-**Testscenario: Beheren van Opgeslagen Huizen**
-1. Ga naar je profielpagina op Funda.
-2. Zoek naar de sectie met opgeslagen huizen.
-3. Controleer of het eerder toegevoegde huis aan de lijst wordt weergegeven.
-4. Probeer een huis uit je lijst te verwijderen en bevestig dat het met succes wordt verwijderd.
+   - *Taak: Beheer je opgeslagen huizen door er een te verwijderen.*
+     - *Scenario:* Ga naar je profielpagina op Funda en zoek naar de sectie met opgeslagen huizen. Kies een huis dat je wilt verwijderen uit je lijst en bevestig de verwijdering.
 
-**Testscenario: Huizen Delen met Vrienden en Familie**
-1. Ga naar je profielpagina op Funda.
-2. Zoek naar de sectie met opgeslagen huizen.
-3. Voor een specifiek huis in je lijst, klik op de "Delen" knop.
-4. Kopieer de gegenereerde link en deel deze met een vriend.
-5. Vraag je vriend om de link te openen zonder ingelogd te zijn op Funda.
-6. Controleer of je vriend het gedeelde huis met succes kan bekijken.
+   - *Taak: Deel een specifiek huis met een vriend via de gegenereerde link.*
+     - *Scenario:* Ga naar je profielpagina op Funda, bekijk de lijst met opgeslagen huizen en klik op de "Delen" knop naast een specifiek huis. Kopieer de gegenereerde link en deel deze met een vriend zodat ze het gedeelde huis kunnen bekijken.
 
-**Resultaten:**
-- Als alle testscenario's met succes zijn voltooid, is de functionaliteit van het toevoegen, beheren en delen van huizen op Funda geslaagd.
-- Als er fouten optreden of als gebruikers problemen ondervinden bij een van de stappen, moeten deze worden gedocumenteerd als potentiële verbeterpunten.
+3. **Proef-test de scenario’s:**
+   - Voer de bovenstaande scenario's uit met een medestudent om te bepalen of de taken duidelijk en begrijpelijk zijn. Pas indien nodig de scenario's aan om eventuele onduidelijkheden te verhelpen.
 
-*Opmerking: Deze test is bedoeld als een praktische validatie van de user story en kan worden uitgevoerd door echte gebruikers om de functionaliteit van de Funda-website te valideren.*
+4. **Test met gebruikers:**
+   - Moedig gebruikers aan om hardop te denken terwijl ze de taken uitvoeren.
+   - Wees neutraal en beïnvloed de gebruikers niet tijdens de test.
+   - Noteer alle reacties, opmerkingen en problemen die gebruikers ervaren tijdens het uitvoeren van de taken.
+   - Beantwoord geen vragen, maar stel vragen terug om de gedachtegang van de gebruiker beter te begrijpen.
+
+*Opmerking: Voer de tests uit met echte gebruikers om de functionaliteit van het delen van huizen op Funda te valideren en eventuele verbeterpunten te identificeren.*
+
 
 
 ## Beschrijving
