@@ -47,6 +47,7 @@ Deze user story stelt gebruikers in staat om hun huizen op Funda te organiseren,
    - 2: Connection Manager is snel te vinden en daardoor had ik gelijk een goed beeld of ik mijn oma wel of niet heb toegevoegd.
 
 4. **Test met gebruikers:**
+   - Geen comments van de tester, maar ik merkte persoonlijk 1 aanpassing. Ik wil de calender button iets aantrekkelijker maken voor de gebruiker om erop te klikken. Ipv typen.
 
 
 
