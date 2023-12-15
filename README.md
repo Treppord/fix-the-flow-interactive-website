@@ -31,30 +31,21 @@ Deze user story stelt gebruikers in staat om hun huizen op Funda te organiseren,
 **Testplan voor Huizen Delen op Funda**
 
 1. **Takenlijst:**
-   - Voeg een huis toe aan je persoonlijke lijst op Funda.
-   - Beheer je opgeslagen huizen door er een te verwijderen.
-   - Deel een specifiek huis met een vriend via de gegenereerde link.
+   - Voeg een connectie toe aan je connecties lijst op Funda.
+   - Beheer je opgeslagen connecties.
 
 2. **Scenario's:**
-   - *Taak: Voeg een huis toe aan je persoonlijke lijst op Funda.*
-     - *Scenario:* Je bent ingelogd op Funda en je hebt een huis gevonden dat je interessant vindt. Voeg dit huis toe aan je persoonlijke lijst zodat je het later kunt bekijken.
+   - *Taak: Voeg een connectie toe aan je Funda vriendenlijst.*
+     - *Scenario:* Je bent ingelogd op Funda en je hebt een huis gevonden dat je interessant vindt. Dit wil je delen met een familielid als potentieel huis om naar te verhuizen.
 
-   - *Taak: Beheer je opgeslagen huizen door er een te verwijderen.*
-     - *Scenario:* Ga naar je profielpagina op Funda en zoek naar de sectie met opgeslagen huizen. Kies een huis dat je wilt verwijderen uit je lijst en bevestig de verwijdering.
-
-   - *Taak: Deel een specifiek huis met een vriend via de gegenereerde link.*
-     - *Scenario:* Ga naar je profielpagina op Funda, bekijk de lijst met opgeslagen huizen en klik op de "Delen" knop naast een specifiek huis. Kopieer de gegenereerde link en deel deze met een vriend zodat ze het gedeelde huis kunnen bekijken.
+   - *Taak: Beheer je toegevoegde connecties door ze te bekijken.*
+     - *Scenario:* Je wilt graag weten of je je oma een tijdje geleden correct heb toegevoegd als een vriend nadat ze je dat voor de 10de keer hebt gevraagd.
 
 3. **Proef-test de scenario’s:**
-   - Voer de bovenstaande scenario's uit met een medestudent om te bepalen of de taken duidelijk en begrijpelijk zijn. Pas indien nodig de scenario's aan om eventuele onduidelijkheden te verhelpen.
+   - 
 
 4. **Test met gebruikers:**
-   - Moedig gebruikers aan om hardop te denken terwijl ze de taken uitvoeren.
-   - Wees neutraal en beïnvloed de gebruikers niet tijdens de test.
-   - Noteer alle reacties, opmerkingen en problemen die gebruikers ervaren tijdens het uitvoeren van de taken.
-   - Beantwoord geen vragen, maar stel vragen terug om de gedachtegang van de gebruiker beter te begrijpen.
-
-*Opmerking: Voer de tests uit met echte gebruikers om de functionaliteit van het delen van huizen op Funda te valideren en eventuele verbeterpunten te identificeren.*
+   - 
 
 
 
