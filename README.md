@@ -2,6 +2,45 @@
 
 Een connectie toevoegings en managing systeem. Om connecties te maken waar je huizen en lijsten mee kan delen.
 
+## Ontwerp Keuzes
+
+### Toelichting op Ontwerpkeuzes
+
+In de gegeven HTML-, CSS- en JavaScript-code zijn verschillende ontwerpkeuzes gemaakt om de gebruikerservaring te verbeteren en een schone en georganiseerde structuur te behouden. Hieronder volgt een uitleg van enkele belangrijke ontwerpkeuzes met betrekking tot feedback, feedforward, zero state en progressieve onthulling:
+
+#### HTML-structuur:
+- **Header Navigatie:**
+  - **Feedback:** Een header met een logo en een navigatielink geeft duidelijk aan wat de identiteit van de applicatie is (funda) en stelt gebruikers in staat naar een andere pagina (Connections) te navigeren.
+  - **Feedforward:** Door de navigatielink "Go to Connections" wordt aangegeven dat er verbindingen zijn en dat de gebruiker naar die sectie kan gaan.
+  
+- **Formulier voor Verbinding Toevoegen:**
+  - **Zero State:** Het formulier bevat lege invoervelden en knoppen, wat aangeeft dat gebruikers hier informatie kunnen toevoegen.
+  - **Progressieve Onthulling:** Het formulier wordt stapsgewijs weergegeven, beginnend met de naam, type verbinding, geboortedatum en e-mail. Dit minimaliseert de overweldiging voor de gebruiker.
+
+#### CSS-stijlen:
+- **Algemene Stijlen:**
+  - **Achtergrondkleur en Lettertype:** Consistente achtergrondkleuren en lettertypen dragen bij aan een samenhangend ontwerp.
+  - **Responsiviteit:** Mediaqueries worden gebruikt voor een responsief ontwerp op verschillende schermformaten.
+
+- **Button Stijlen:**
+  - **Feedback:** Knoppen hebben een opvallende achtergrondkleur en veranderen van kleur bij hover, waardoor interactieve feedback wordt gegeven.
+
+- **Modal Stijlen:**
+  - **Progressieve Onthulling:** Een modaal venster wordt weergegeven na het succesvol toevoegen van een verbinding, waardoor de gebruiker een bevestiging krijgt zonder de hoofdinterface te verstoren.
+
+#### JavaScript-functionaliteit:
+- **Toevoegen van Verbinding:**
+  - **Feedback:** Een succesmodal wordt weergegeven na het succesvol toevoegen van een verbinding, wat feedback geeft aan de gebruiker.
+  - **Reset en Stijlupdate:** Het formulier en geselecteerde verbinding worden gereset na het toevoegen, en knopstijlen worden bijgewerkt.
+
+- **Selecteren van Verbinding:**
+  - **Feedback:** Geselecteerde knoppen worden visueel onderscheiden van andere knoppen, waardoor de huidige status wordt aangegeven.
+
+- **Weergeven van Verbindingen:**
+  - **Zero State:** Als er geen verbindingen zijn, wordt een bericht weergegeven dat er nog geen boekingen zijn gemaakt.
+  - **Dynamische Weergave:** Bestaande verbindingen worden dynamisch weergegeven in een agendaformaat.
+
+
 ## Code Conventies en Principes
 
 ### Forms (Zichtbaar op de openingspagina)
