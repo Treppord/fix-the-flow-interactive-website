@@ -2,6 +2,91 @@
 
 Een connectie toevoegings en managing systeem. Om connecties te maken waar je huizen en lijsten mee kan delen.
 
+## Code Conventies en Principes
+
+### Forms (Zichtbaar op de openingspagina)
+
+In de HTML-code zijn formuliervelden netjes gestructureerd met duidelijke labels voor een betere toegankelijkheid en begrijpelijkheid van formulieren. Bijvoorbeeld:
+
+```html
+<div class="form-group">
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name" />
+</div>
+
+<div class="form-group">
+  <label for="connection">Type Connection:</label>
+  <div class="connection-buttons">
+    <button name="connection-button" onclick="selectConnection('friends')">Friends</button>
+    <button name="connection-button" onclick="selectConnection('family')">Family</button>
+  </div>
+</div>
+```
+
+### UI Events (Popup van een succesvolle toevoeging)
+
+Voor het weergeven van een succesvolle toevoeging wordt een modal gebruikt. De bijbehorende JavaScript-functies openen en sluiten de modal. Bijvoorbeeld:
+
+```html
+<div id="success-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>Connection Added Successfully!</p>
+  </div>
+</div
+```
+
+### 3 Stappenplan JS (In de selectiemethode van het formulier)
+
+Het JavaScript-bestand (`scripts/main.js`) bevat functies voor het verwerken van formuliergegevens in drie stappen:
+
+1. **Data verzamelen:**
+```javascript
+   const name = document.getElementById("name").value;
+   const date = document.getElementById("date").value;
+   const email = document.getElementById("email").value;
+```
+
+2. **Data valideren:**
+```
+if (!name || !date || !email || !selectedConnection) {
+  alert("Please fill in all fields and select a connection type before contact.");
+  return;
+}
+```
+
+3. **Data verwerken en weergeven van de successmodal:**
+```javascript
+const connection = selectedConnection;
+const contact = { name, connection, date, email };
+
+// Save de contact naar sessionStorage
+const bookings = JSON.parse(sessionStorage.getItem("bookings")) || [];
+bookings.push(contact);
+sessionStorage.setItem("bookings", JSON.stringify(bookings));
+
+// Display de successmodal
+const modal = document.getElementById("success-modal");
+modal.style.display = "block";
+
+// Reset het formulier en de geselecteerde connectie
+document.getElementById("name").value = "";
+document.getElementById("date").value = "";
+document.getElementById("email").value = "";
+selectedConnection = null;
+
+// Update de stijl van de knoppen
+document.querySelectorAll("[name='connection-button']").forEach((button) => {
+  button.classList.remove("selected");
+});
+
+displayConnections(); // Optioneel, afhankelijk van de verdere functionaliteit
+```
+
+
+
+
+
 ## User Story
 
 **User Story: Huizen Delen op Funda**
