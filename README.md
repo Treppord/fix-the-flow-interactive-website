@@ -6,7 +6,7 @@ Een connectie toevoegings en managing systeem. Om connecties te maken waar je hu
 
 ### Toelichting op Ontwerpkeuzes
 
-In de gegeven HTML-, CSS- en JavaScript-code zijn verschillende ontwerpkeuzes gemaakt om de gebruikerservaring te verbeteren en een schone en georganiseerde structuur te behouden. Hieronder volgt een uitleg van enkele belangrijke ontwerpkeuzes met betrekking tot feedback, feedforward, zero state en progressieve onthulling:
+In de gegeven HTML-, CSS- en JavaScript-code zijn verschillende ontwerpkeuzes gemaakt om de gebruikerservaring te verbeteren en een schone en georganiseerde structuur te behouden. Hieronder volgt een uitleg van enkele belangrijke ontwerpkeuzes met betrekking tot feedback, feedforward en zero state:
 
 #### HTML-structuur:
 - **Header Navigatie:**
@@ -15,7 +15,6 @@ In de gegeven HTML-, CSS- en JavaScript-code zijn verschillende ontwerpkeuzes ge
   
 - **Formulier voor Verbinding Toevoegen:**
   - **Zero State:** Het formulier bevat lege invoervelden en knoppen, wat aangeeft dat gebruikers hier informatie kunnen toevoegen.
-  - **Progressieve Onthulling:** Het formulier wordt stapsgewijs weergegeven, beginnend met de naam, type verbinding, geboortedatum en e-mail. Dit minimaliseert de overweldiging voor de gebruiker.
 
 #### CSS-stijlen:
 - **Algemene Stijlen:**
